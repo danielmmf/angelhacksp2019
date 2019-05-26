@@ -148,28 +148,28 @@
                                     <img src="img/blog/popular-post/post1.jpg" alt="post">
                                     <div class="media-body">
                                         <a href="blog-details.html"><h3>Material escolar</h3></a>
-                                        <p>02 Hours ago</p>
+                                        <p>02 horas atras</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
                                     <img src="img/blog/popular-post/post2.jpg" alt="post">
                                     <div class="media-body">
                                         <a href="blog-details.html"><h3>Fornecimento de agua</h3></a>
-                                        <p>02 Hours ago</p>
+                                        <p>02 horas atras</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
                                     <img src="img/blog/popular-post/post3.jpg" alt="post">
                                     <div class="media-body">
                                         <a href="blog-details.html"><h3>Serviço de caçambas e entulhos</h3></a>
-                                        <p>03 Hours ago</p>
+                                        <p>03 horas atras</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
                                     <img src="img/blog/popular-post/post4.jpg" alt="post">
                                     <div class="media-body">
                                         <a href="blog-details.html"><h3>Alimentos</h3></a>
-                                        <p>01 Hours ago</p>
+                                        <p>01 horas atras</p>
                                     </div>
                                 </div>
                                 <div class="br"></div>
