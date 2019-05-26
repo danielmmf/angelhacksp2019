@@ -74,7 +74,7 @@
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
                                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#welcome_area">Sobre nós</a></li> 
-								<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#event_area">Eventos naturais</a></li>   
+								<li class="nav-item"><a class="nav-link js-scroll-trigger" href="chamado.php">Eventos naturais</a></li>   
 								<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#feature_area">Recursos</a></li>
                                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#galeria_area">Galeria</a></li>
 								<li class="nav-item submenu dropdown">

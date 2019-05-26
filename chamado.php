@@ -61,7 +61,7 @@
                                     <input type="text" class="form-control" id="UF" name="UF" placeholder="UF">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <button type="submit" value="submit" class="btn submit_btn form-control">Adicionar</button>
+                                    <a href="barragem.php"><button type="button" value="submit" class="btn submit_btn form-control">Adicionar</button></a>
                                 </div>
                             </form>
         				</div>
