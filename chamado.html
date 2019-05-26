@@ -126,16 +126,16 @@
 									</select>
                                 </div>
                                 <div class="form-group col-lg-6">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                    <input type="text" class="form-control" id="CEP" name="CEP" placeholder="preencha o cep do local afetado">
                                 </div>
                                 <div class="form-group col-lg-6">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                    <input type="text" class="form-control" id="rua" name="rua" placeholder="rua">
                                 </div>
                                 <div class="form-group col-lg-12">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Donation amount(USD)">
+                                    <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Cidade">
                                 </div>
                                 <div class="form-group col-lg-12">
-                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
+                                    <input type="text" class="form-control" id="UF" name="UF" placeholder="UF">
                                 </div>
                                 <div class="form-group col-md-12">
                                     <button type="submit" value="submit" class="btn submit_btn form-control">Adicionar</button>
@@ -247,5 +247,30 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/mail-script.js"></script>
         <script src="js/theme.js"></script>
+        <script type="text/javascript">
+            
+            function getEndereco() {  
+                     if($.trim($("#CEP").val()) != ""){  
+                         $.getScript("http://cep.republicavirtual.com.br/web_cep.php?formato=javascript&cep="+$("#CEP").val(), function(){  
+                             if(resultadoCEP["resultado"]){  
+                                // $("#ENDERECO").val(unescape(resultadoCEP["tipo_logradouro"])+" "+unescape(resultadoCEP["logradouro"]));  
+                                 $("#rua").val(unescape(resultadoCEP["tipo_logradouro"])+" "+unescape(resultadoCEP["logradouro"])); 
+                                 $("#cidade").val(unescape(resultadoCEP["cidade"]));
+                                 $("#UF").val(unescape(resultadoCEP["uf"]));  
+                             }else{  
+                                 alert("Cep invalido !");  
+                                 //jqDialog.notify("Cep Invalido", 0);
+                             }  
+                         });  
+                     }  
+             }  
+         
+                        $('#CEP').on('blur', function() {
+                                getEndereco();
+                        });
+         
+        
+
+        </script>
     </body>
-</html>
+</val>
